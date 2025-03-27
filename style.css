@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    background-color: aquamarine;
+}
+
+
+:root {
+    --cor-primaria: #005cff;
+}
+
+/*Anuncio*/
+#anuncio {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: var(--cor-primaria);
+    height: 30px;
+    width: 100vw;
+}
+
+#anuncio p {
+    color: white;
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+#anuncio strong {
+    background-color: #6220C1;
+    width: 63px;
+    height: 16px;
+    padding: 2px 2px;
+    border-radius: 6px;
+}
+
+#anuncio em {
+    background-color: var(--cor-primaria);
+    font-weight: 400;
+}
+
+/*NAV*/
+#barra {
+    display: flex;
+    width: 100vw;
+    background-color: white;
+    height: 118px;
+    flex-direction: column;
+}
+
+.top {
+    margin-left: 8%;
+    margin-right: 8%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    width: 100vw;
+    height: 50%;
+}
+
+.top ul {
+    display: flex;
+    list-style: none;
+    margin-top: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+#divBusca #txtBusca {
+    width: 594px;
+    height: 40px;
+    border-radius: 10px;
+    border: solid 1px;
+    border-color: #DDDDDD;
+    padding-left: 10px;
+}
+
+#divBusca #txtBusca::placeholder{
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: start;
+}
+
+#divBusca #txtBusca:focus{
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: start;
+    
+}
+
+.hello {
+    display: flex;
+    margin-left: 180px;
+}
+
+.hello a{
+    text-decoration: none;
+    color: #000000;
+    line-height:14px;
+}
+
+.logo {
+    width: 152px;
+    height: 27px;
+    margin-right: 50px;
+}
+
+.bot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 50%;
+}
+
+.bot ul {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+
+.bot a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: black;
+}
+
+.bot img {
+    width: 14px;
+    height: 10px;
+}
